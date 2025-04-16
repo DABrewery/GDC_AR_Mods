@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{8A8897B257013B36}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1DCFF754C3E3F539}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_MK18_Eot.et"
+  }
+ }
+}

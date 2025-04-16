@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AD0E348DB3B4204E}Language/ZICO_localisation.st"
+ Configurations {
+  StringTableResourceClass PC {
+  }
+  StringTableResourceClass XBOX_ONE : PC {
+  }
+  StringTableResourceClass XBOX_SERIES : PC {
+  }
+  StringTableResourceClass PS4 : PC {
+  }
+  StringTableResourceClass PS5 : PC {
+  }
+  StringTableResourceClass HEADLESS : PC {
+  }
+ }
+}

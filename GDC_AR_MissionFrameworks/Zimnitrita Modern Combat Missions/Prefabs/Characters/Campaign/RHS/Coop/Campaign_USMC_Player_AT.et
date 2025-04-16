@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{A3AC876D9E4CC3A1}Prefabs/Characters/Campaign/RHS/Coop/Campaign_USMC_Player.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6712E321EDCF23AB}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_AT_shawplacard3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64DF3845936E40D7}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+    }
+    ItemsInitConfigurationItem "{64DF3847CC5CDA37}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angleY -18
+}

@@ -1,0 +1,63 @@
+Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F6C785F08E4AE4}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64DF385D29652D38}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{64E096699B2E5EB8}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{64E0966AC837A871}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+     NumSlots 24
+    }
+    MultiSlotConfiguration "{64E0966AFABCFF0C}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{64E0966B594DB8B8}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{64E0966B2D6418C6}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64E0966BAF648351}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64E110BC04FB4DB6}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 12
+    }
+   }
+  }
+ }
+}

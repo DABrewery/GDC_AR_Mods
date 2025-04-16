@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DD6CC9DDD4375A21}Prefabs/Characters/Campaign/RHS/Coop/Campaign_USMC_Player_Marksman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

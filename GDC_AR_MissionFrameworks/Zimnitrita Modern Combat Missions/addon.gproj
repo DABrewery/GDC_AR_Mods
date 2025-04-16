@@ -1,0 +1,38 @@
+GameProject {
+ ID "ZimnitritaModernCombatMissions"
+ GUID "62E91A5030AAD4AA"
+ TITLE "Zimnitrita Modern Combat Missions"
+ Dependencies {
+  "597697D81A1EA202" "595F2BF2F44836FB" "60E4207497401A8C"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WorldFile "{00F90FE4624AE11C}Worlds/Zimnitrita-dev-Combat Ops Modern.ent"
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{518AE2E5A9361F76}" {
+      StringTableSource "{AD0E348DB3B4204E}Language/ZICO_localisation.st"
+      Languages {
+       LanguageDefinition "{516CA5DA9BCB536C}" {
+        StringTableRuntime "{964EC120EA718958}Language/ZICO_localisation.fr_fr.conf"
+       }
+       LanguageDefinition "{5174991ACFFBD1F3}" {
+        StringTableRuntime "{E8AA799EE2F00145}Language/ZICO_localisation.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
