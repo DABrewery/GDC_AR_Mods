@@ -9,6 +9,7 @@ For any information about Sekel's Reforger Lobby, see Reforger Lobby on AR Works
 This mod also adds custom loadouts for RHS factions :
 - 4 bandages and 2 morphine injectors for everyone
 - su230 (Eotech Holosight) in place of regular RCO (AN/PVQ-31) for riflemen and derived loadouts
+- 10 magazines for rifles, 2 grenades and 2 white smokes for nearly every loadouts
 - medical kit for medics
 - su230/PVS optic (1-4x) for leaders
 
