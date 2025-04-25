@@ -3,7 +3,7 @@
 ## Purpose
 This mod adds Seskel's Reforger Lobby and tune a few game mode parameters (e.g. delay between briefing and game state). Reforger Lobby is a fantastic mod that provides two very important features :
 - a real lobby alla Arma 2 with many cool features
-- a game mod with no respawn. When a player is dead, it is definitive. Instead of respawning, the player is taken on spectator view.
+- a game mode with no respawn. When a player is dead, it is definitive. Instead of respawning, the player is taken on spectator view.
 For any information about Sekel's Reforger Lobby, see Reforger Lobby on AR Workshop
 
 This mod also adds custom loadouts for RHS factions :
@@ -11,7 +11,6 @@ This mod also adds custom loadouts for RHS factions :
 - su230 (Eotech Holosight) in place of regular RCO (AN/PVQ-31) for riflemen and derived loadouts
 - medical kit for medics
 - su230/PVS optic (1-4x) for leaders
-
 
 ## How to use
 RHS and Reforger Lobby (and its depedency, PS Core) should be loaded before GDC Reforger Lobby.
