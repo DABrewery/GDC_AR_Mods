@@ -1,0 +1,6 @@
+SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{16FC2DC4B00A2A6B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Spotter_Random_P.et" "{4B9E9A6CE1B50916}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper_P.et"
+ }
+}

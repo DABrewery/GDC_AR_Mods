@@ -3,6 +3,20 @@ GameProject {
  GUID "651E7E47B359F69A"
  TITLE "GDC Reforger Lobby"
  Dependencies {
-  "58D0FB3206B6F859" "5EAF2B0473DB5A99"
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "5EAF2B0473DB5A99"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }

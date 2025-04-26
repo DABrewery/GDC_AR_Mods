@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{3967948B72443B25}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 0
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{D470A30BEA07EB55}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_su231A.et"
   }
