@@ -1,6 +1,0 @@
-SCR_AIGroup : "{559AAEF06C2AF113}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_MachineGunTeam.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{BB4485367081D68C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_MG_Random_P.et" "{8EE5778309FD406C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AMG_Random_P.et"
- }
-}

@@ -1,6 +1,0 @@
-SCR_AIGroup : "{FDAABEDD84CC8933}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_AmmoTeam.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{8EE5778309FD406C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AMG_Random_P.et" "{8EE5778309FD406C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AMG_Random_P.et" "{FF3CB408A2F6D018}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Ammo_Random_P.et" "{FF3CB408A2F6D018}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Ammo_Random_P.et"
- }
-}
