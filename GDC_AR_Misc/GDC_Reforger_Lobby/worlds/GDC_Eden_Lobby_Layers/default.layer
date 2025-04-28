@@ -26,6 +26,5 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 15
  m_bDisableVanillaGroupMenu 1
- m_bFriendliesSpectatorOnly 1
  m_bFreezeTimeShootingForbiden 1
 }
