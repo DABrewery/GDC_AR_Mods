@@ -1,3 +1,21 @@
+"""
+convert_compo_to_json.py
+
+This script parses Enfusion composition (.et) files and extracts all child entities from the main composition block.
+It outputs a JSON fragment containing only the entity list, formatted as:
+"campItems": [ ... ] ti be used with darc missions mod ()
+
+Usage:
+    python convert_compo_to_json.py -f <path/to/file.et>
+    python convert_compo_to_json.py -d <path/to/directory>
+
+- With -f, parses a single file and writes <filename>.json in the same directory.
+- With -d, parses all .et files in the directory and writes corresponding .json files.
+- If the output file already exists, the script asks for confirmation before overwriting.
+
+Author: (your name or organization)
+"""
+
 import re
 import json
 import argparse
@@ -5,9 +23,11 @@ import os
 import sys
 
 def parse_vector(coords):
+    # Converts a string "x y z" to a list of floats
     return [float(v) for v in coords.strip().split()]
 
 def parse_rotation(props):
+    # Looks for angleX, angleY, angleZ in properties, returns [x, y, z]
     rx = float(props.get('angleX', 0))
     ry = float(props.get('angleY', 0))
     rz = float(props.get('angleZ', 0))
@@ -28,7 +48,7 @@ def extract_entities_from_block(block):
                 break
             prefab = match.group('prefab')
             start = match.end()
-            # Trouver la fin du bloc en équilibrant les accolades
+            # Find the end of the block by balancing braces
             depth = 1
             i = start
             while i < len(block) and depth > 0:
@@ -41,19 +61,19 @@ def extract_entities_from_block(block):
             props = dict(prop_pattern.findall(content))
             if 'coords' in props:
                 entity = {
-                    "resource": prefab,
-                    "position": parse_vector(props['coords']),
-                    "rotation": parse_rotation(props)
+                    "m_Resource": prefab,
+                    "m_Position": parse_vector(props['coords']),
+                    "m_Rotation": parse_rotation(props)
                 }
                 entities.append(entity)
-            # Récursif pour les sous-entités
+            # Recursive for sub-entities
             parse_block(content)
             pos = i
     parse_block(block)
     return entities
 
 def extract_main_block(text):
-    # Trouve le premier bloc principal (la composition)
+    # Finds the first main block (the composition)
     main_entity_pattern = re.compile(
         r'(GenericEntity|StaticModelEntity)\s*:\s*"[^"]+"\s*\{', re.DOTALL
     )
@@ -69,7 +89,7 @@ def extract_main_block(text):
         elif text[i] == '}':
             depth -= 1
         i += 1
-    # On extrait le contenu du bloc principal
+    # Extract the content of the main block
     return text[start:i-1]
 
 def process_file(filepath, output_dir=None):
@@ -77,7 +97,7 @@ def process_file(filepath, output_dir=None):
         text = f.read()
     main_block = extract_main_block(text)
     if main_block is None:
-        print(f"Bloc principal non trouvé dans {filepath}")
+        print(f"Main block not found in {filepath}")
         return
     entities = extract_entities_from_block(main_block)
     base = os.path.splitext(os.path.basename(filepath))[0]
@@ -87,23 +107,23 @@ def process_file(filepath, output_dir=None):
     else:
         output_path = output_name
 
-    # Vérification de l'existence du fichier
+    # Check if the output file already exists
     if os.path.exists(output_path):
-        resp = input(f"Le fichier {output_path} existe déjà. Voulez-vous l'écraser ? (o/N) : ")
-        if resp.lower() not in ["o", "oui", "y", "yes"]:
-            print("Écriture annulée.")
+        resp = input(f"The file {output_path} already exists. Overwrite? (y/N): ")
+        if resp.lower() not in ["y", "yes", "o", "oui"]:
+            print("Write cancelled.")
             return
 
     with open(output_path, "w", encoding="utf-8") as out:
         out.write('"campItems": ')
         json.dump(entities, out, indent=2, ensure_ascii=False)
-    print(f"Fichier écrit : {output_path}")
+    print(f"File written: {output_path}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Convertit des fichiers de composition Enfusion en JSON.")
+    parser = argparse.ArgumentParser(description="Convert Enfusion composition files to JSON.")
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("-f", "--file", help="Fichier unique à parser")
-    group.add_argument("-d", "--dir", help="Répertoire contenant les fichiers à parser")
+    group.add_argument("-f", "--file", help="Single file to parse")
+    group.add_argument("-d", "--dir", help="Directory containing files to parse")
     args = parser.parse_args()
 
     if args.file:
