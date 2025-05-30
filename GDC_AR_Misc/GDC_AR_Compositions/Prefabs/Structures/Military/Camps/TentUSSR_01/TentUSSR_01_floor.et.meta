@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{69D6BDFC872F8BE4}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_floor.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

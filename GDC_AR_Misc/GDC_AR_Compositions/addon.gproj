@@ -1,8 +1,23 @@
 GameProject {
  ID "GDCCompositions"
  GUID "65794E760C78FAB3"
- TITLE "GDC_Compositions"
+ TITLE "GDC Compositions"
  Dependencies {
   "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WorldFile "{AFC7FCC9D0EE3CB4}worlds/Compositions.ent"
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }

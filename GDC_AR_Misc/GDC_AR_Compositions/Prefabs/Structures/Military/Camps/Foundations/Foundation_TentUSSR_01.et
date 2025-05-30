@@ -1,0 +1,8 @@
+GenericEntity : "{A17D9DC539901321}Prefabs/Structures/Military/Camps/Foundations/Foundation_base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
+  }
+ }
+}

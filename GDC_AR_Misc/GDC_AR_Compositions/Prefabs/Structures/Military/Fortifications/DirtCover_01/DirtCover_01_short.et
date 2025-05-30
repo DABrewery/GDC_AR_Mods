@@ -1,0 +1,7 @@
+StaticModelEntity : "{7B7779EF33B22730}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_base.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  RplComponent "{657D0110214F1D61}" {
+  }
+ }
+}

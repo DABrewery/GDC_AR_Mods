@@ -1,0 +1,7 @@
+GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
+ ID "5112869E2988305B"
+ components {
+  RplComponent "{657D011077AB224B}" {
+  }
+ }
+}

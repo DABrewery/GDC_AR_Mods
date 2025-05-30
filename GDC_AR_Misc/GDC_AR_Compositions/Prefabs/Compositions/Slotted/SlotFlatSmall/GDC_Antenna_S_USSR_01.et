@@ -1,0 +1,140 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{657CD8DB1E1BA025}" {
+   "faction affiliation" "USSR"
+  }
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Extents 5 0.5 5
+    }
+   }
+  }
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_ANTENNA"
+   }
+  }
+  Hierarchy "{657CD8DB1E1BA0D2}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{2FCB46C395C9CBE7}Prefabs/Props/Airport/GeneratorAirfield_USSR_01/GeneratorAirfield_USSR_01.et" {
+   ID "657CD8DB1E18144C"
+   components {
+    Hierarchy "{657CD8DB1E1BA0DE}" {
+     Enabled 1
+    }
+   }
+   coords -0.611 0 -3.322
+   angleY 19.944
+  }
+  GenericEntity : "{5BA978B9D36641DD}Prefabs/Props/Military/Compositions/USSR/Antenna_01_USSR.et" {
+   ID "657CD8DB1E181440"
+   coords 0 0 0
+   angleY -178.577
+  }
+  GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   ID "657CD8DB1E181442"
+   coords 1.449 0.1 3.262
+   angleY -49.13
+  }
+  GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   ID "657CD8DB1E181444"
+   coords -0.487 0.1 -2.878
+   angleY -85.417
+  }
+  $grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+   {
+    ID "657CD8DB1E181478"
+    components {
+     Hierarchy "{657CD8DB1E1BA0C6}" {
+      Enabled 1
+     }
+    }
+    coords -3.619 0 2.881
+    angleY -58.595
+   }
+   {
+    ID "657CD8DB1E181479"
+    components {
+     Hierarchy "{657CD8DB1E1BA0D8}" {
+      Enabled 1
+     }
+    }
+    coords -3.255 0 4.228
+   }
+  }
+  GenericEntity : "{B90CA0BEF3CC1D19}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Medium_Soviet.et" {
+   ID "657CD8DB1E18147F"
+   coords 0 0 0
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "657CD8DB1E181470"
+   components {
+    Hierarchy "{657CD8DB1E1BA0C5}" {
+     Enabled 1
+    }
+   }
+   coords 1.431 0 -3.877
+   angleY 18.979
+  }
+  $grp GenericEntity : "{EFA7233213E77C2E}Prefabs/Systems/SpawnPoints/SpawnPosition.et" {
+   {
+    ID "657CD8DB1E181473"
+    components {
+     Hierarchy "{657CD8DB1E1BA0C3}" {
+     }
+    }
+    coords 2.701 0.01 -0.106
+    angleY -36.778
+   }
+   {
+    ID "657CD8DB1E1BF25E"
+    components {
+     Hierarchy "{657CD8DB1E1BA0CE}" {
+     }
+    }
+    coords -2.798 0.01 -1.838
+    angleY 14.578
+   }
+  }
+  $grp GenericEntity : "{F0DCB55B7FDB746B}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Footprints_02.et" {
+   {
+    ID "657CD8DB1E1BF258"
+    coords -5.886 0.1 -1.731
+    angleY -34.105
+   }
+   {
+    ID "657CD8DB1E1BF25F"
+    coords -4.442 0.1 -1.01
+    angleY -17.698
+   }
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    ID "657CD8DB1E1B9222"
+    components {
+     Hierarchy "{657CD8DB1E1BA0CA}" {
+      Enabled 1
+     }
+    }
+    coords -2.32 0 6.226
+    angleY -91.785
+   }
+   {
+    ID "657CD8DB1E1BA03A"
+    components {
+     Hierarchy "{657CD8DB1E1BA0C9}" {
+      Enabled 1
+     }
+    }
+    coords 4.048 0 6.045
+    angleY -75.75
+   }
+  }
+ }
+}

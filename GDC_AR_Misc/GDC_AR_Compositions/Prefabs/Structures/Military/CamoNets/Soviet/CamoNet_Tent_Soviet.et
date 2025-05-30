@@ -1,0 +1,8 @@
+GenericEntity : "{A2D50E1459CC19C1}Prefabs/Structures/Military/CamoNets/CamoNet_Base.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" {
+   Enabled 1
+  }
+ }
+}
