@@ -1,0 +1,160 @@
+GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_SlotPrefab "{74ECB0169F30948C}Prefabs/World/Locations/Common/LocationBase.et"
+  }
+ }
+ coords 50 0 50
+ {
+  GenericEntity : "{00EC57C047FB8AE9}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Light_USSR_01.et" {
+   ID "657C73BEFB1124AE"
+   coords -25.797 0 9.32
+   angleY 90
+  }
+  GenericEntity : "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Decorations/PalletPile_Stacked_01.et" {
+   ID "657C73B12F357506"
+   coords -5.575 0 16.939
+   angleY 0
+  }
+  GenericEntity : "{1D2887BB9A7D4670}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_USSR_01.et" {
+   ID "657C73B0E73C39E9"
+   coords 0 0 0
+  }
+  GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+   ID "657C73BE4A450812"
+   coords 11.274 0 29.786
+   angleY 46.58
+  }
+  GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+   ID "657C73BE9CFC7F3F"
+   coords -17.075 0 22.536
+   angleY 45.574
+  }
+  GenericEntity : "{286212B6EFA9C01C}Prefabs/Compositions/Misc/SubCompositions/Garbage/Garbage_Vehicle_03.et" {
+   ID "657C73BF2F1C6E03"
+   coords -22.232 0 20.473
+   angleY 127.118
+  }
+  $grp GenericEntity : "{32DE30B02A04B844}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_USSR_01.et" {
+   {
+    ID "657C73BE4A45084F"
+    coords -5.326 0 -17.25
+    angleY -87.045
+   }
+   {
+    ID "657C73BE4A4508CF"
+    coords 13.493 0 26.131
+    angleY 142.719
+   }
+  }
+  GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et" {
+   ID "657C73B1BA5983FD"
+   coords 10.158 0 -12.332
+   angleY -47.642
+  }
+  GenericEntity : "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et" {
+   ID "657C73BE4A4508F6"
+   coords 7.034 0 31.298
+   angleY 28.309
+  }
+  $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+   {
+    ID "657C73BE9CFC7F20"
+    coords -14.735 0 22.407
+    angleY 147.568
+   }
+   {
+    ID "657C73BE9CFC7F28"
+    coords -13.711 0 24.538
+    angleY 84.604
+   }
+   {
+    ID "657C73BE9CFC7F32"
+    coords -17.828 0 20.608
+    angleY 180
+   }
+   {
+    ID "657C73BE9CFC7F48"
+    coords -18.136 0 23.72
+    angleY -32.433
+   }
+   {
+    ID "657C73BE9CFC7F51"
+    coords -19.16 0 21.589
+    angleY -95.396
+   }
+   {
+    ID "657C73BE9CFC7F58"
+    coords -15.733 0 21.181
+    angleY 147.568
+   }
+   {
+    ID "657C73BE9CFC7F61"
+    coords -15.043 0 25.519
+   }
+   {
+    ID "657C73BE9CFC7F7E"
+    coords -17.138 0 24.946
+    angleY -32.433
+   }
+  }
+  GenericEntity : "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et" {
+   ID "657C73BF615A464B"
+   coords 16.689 0 -2.11
+   angleY -59.527
+  }
+  GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
+   ID "657C73B12F357528"
+   coords -9.402 0 6.454
+  }
+  GenericEntity : "{607E00F1C367D129}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_01.et" {
+   ID "657C73B30481D11C"
+   coords -16.085 0 5.845
+   angleY 47.71
+  }
+  GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
+   ID "657C73BC8878431C"
+   coords 0.441 1.079 0.724
+   angleY -79.544
+  }
+  GenericEntity : "{870147309B86AAC6}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_USSR_02.et" {
+   ID "657C73BEFB1124C1"
+   coords -20.631 0 -6.121
+   angleY 0
+  }
+  GenericEntity : "{A2D4DAC9EDE8BD6E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_NSV.et" {
+   ID "657C73B1BA5983BD"
+   coords -0.389 0 -18.514
+   angleY 180
+  }
+  $grp GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+   {
+    ID "657C73B18FE2CD21"
+    coords -6.796 0 32.929
+    angleY -30.09
+   }
+   {
+    ID "657C73BF615A4663"
+    coords 17.181 0 13.657
+    angleY 74.431
+   }
+  }
+  GenericEntity : "{DC82213D62A2F621}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Large_USSR_01.et" {
+   ID "657C73B0E19181EF"
+   coords -1.175 0 20.156
+   angleX 0
+   angleY 0
+   angleZ 0
+  }
+  GenericEntity : "{E027C0CF067256FA}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01.et" {
+   ID "657C73BEFB112439"
+   coords -17.542 0 -7.903
+   angleY -140.691
+  }
+  GenericEntity : "{EB5573D0274225E8}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_USSR_01.et" {
+   ID "657C73BEFB1124E0"
+   coords -20.05 0 -4.823
+  }
+ }
+}

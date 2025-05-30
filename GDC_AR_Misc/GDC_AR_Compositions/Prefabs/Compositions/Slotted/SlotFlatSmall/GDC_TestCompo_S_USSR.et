@@ -1,0 +1,15 @@
+GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_SlotPrefab "{74ECB0169F30948C}Prefabs/World/Locations/Common/LocationBase.et"
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+   ID "657CA85E229BD795"
+   coords 2.054 0.1 2.4
+  }
+ }
+}

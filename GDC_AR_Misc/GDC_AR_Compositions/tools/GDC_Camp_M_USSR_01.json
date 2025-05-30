@@ -1,0 +1,262 @@
+"campItems": [
+  {
+    "m_Resource": "{00EC57C047FB8AE9}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Light_USSR_01.et",
+    "m_Position": [
+      -25.797,
+      0.0,
+      9.32
+    ],
+    "m_Rotation": [
+      0.0,
+      90.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Decorations/PalletPile_Stacked_01.et",
+    "m_Position": [
+      -5.575,
+      0.0,
+      16.939
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{1D2887BB9A7D4670}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_USSR_01.et",
+    "m_Position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et",
+    "m_Position": [
+      11.274,
+      0.0,
+      29.786
+    ],
+    "m_Rotation": [
+      0.0,
+      46.58,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et",
+    "m_Position": [
+      -17.075,
+      0.0,
+      22.536
+    ],
+    "m_Rotation": [
+      0.0,
+      45.574,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{286212B6EFA9C01C}Prefabs/Compositions/Misc/SubCompositions/Garbage/Garbage_Vehicle_03.et",
+    "m_Position": [
+      -22.232,
+      0.0,
+      20.473
+    ],
+    "m_Rotation": [
+      0.0,
+      127.118,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{32DE30B02A04B844}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_USSR_01.et",
+    "m_Position": [
+      13.493,
+      0.0,
+      26.131
+    ],
+    "m_Rotation": [
+      0.0,
+      142.719,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et",
+    "m_Position": [
+      10.158,
+      0.0,
+      -12.332
+    ],
+    "m_Rotation": [
+      0.0,
+      -47.642,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et",
+    "m_Position": [
+      7.034,
+      0.0,
+      31.298
+    ],
+    "m_Rotation": [
+      0.0,
+      28.309,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et",
+    "m_Position": [
+      -17.138,
+      0.0,
+      24.946
+    ],
+    "m_Rotation": [
+      0.0,
+      -32.433,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et",
+    "m_Position": [
+      16.689,
+      0.0,
+      -2.11
+    ],
+    "m_Rotation": [
+      0.0,
+      -59.527,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et",
+    "m_Position": [
+      -9.402,
+      0.0,
+      6.454
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{607E00F1C367D129}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_01.et",
+    "m_Position": [
+      -16.085,
+      0.0,
+      5.845
+    ],
+    "m_Rotation": [
+      0.0,
+      47.71,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et",
+    "m_Position": [
+      0.441,
+      1.079,
+      0.724
+    ],
+    "m_Rotation": [
+      0.0,
+      -79.544,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{870147309B86AAC6}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_USSR_02.et",
+    "m_Position": [
+      -20.631,
+      0.0,
+      -6.121
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{A2D4DAC9EDE8BD6E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_NSV.et",
+    "m_Position": [
+      -0.389,
+      0.0,
+      -18.514
+    ],
+    "m_Rotation": [
+      0.0,
+      180.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et",
+    "m_Position": [
+      17.181,
+      0.0,
+      13.657
+    ],
+    "m_Rotation": [
+      0.0,
+      74.431,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{DC82213D62A2F621}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Large_USSR_01.et",
+    "m_Position": [
+      -1.175,
+      0.0,
+      20.156
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{E027C0CF067256FA}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01.et",
+    "m_Position": [
+      -17.542,
+      0.0,
+      -7.903
+    ],
+    "m_Rotation": [
+      0.0,
+      -140.691,
+      0.0
+    ]
+  },
+  {
+    "m_Resource": "{EB5573D0274225E8}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_USSR_01.et",
+    "m_Position": [
+      -20.05,
+      0.0,
+      -4.823
+    ],
+    "m_Rotation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

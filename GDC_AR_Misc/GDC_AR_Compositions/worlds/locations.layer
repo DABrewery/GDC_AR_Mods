@@ -1,0 +1,70 @@
+$grp GenericEntity {
+ Village_Name2 {
+  components {
+   SCR_EditableCommentComponent "{64D2EC101A8C6AE5}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{64D2EC105978F28D}" {
+     Name "Small Village"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{64D2EC102C7EB21F}" {
+    DisplayName "Small Village"
+    MainType "Name Village"
+   }
+  }
+  coords 264.836 0 134.973
+ }
+ City_Name2 {
+  components {
+   SCR_EditableCommentComponent "{64D2EC101A8C6AE5}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{64D2EC105978F28D}" {
+     Name "Big City"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{64D2EC102C7EB21F}" {
+    DisplayName "Big City"
+    MainType "Name City"
+   }
+  }
+  coords 54.252 0 135.767
+ }
+ Settlement_Name2 {
+  components {
+   SCR_EditableCommentComponent "{64D2EC101A8C6AE5}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{64D2EC105978F28D}" {
+     Name "Little Settlement"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{64D2EC102C7EB21F}" {
+    DisplayName "Little Settlement"
+    MainType "Name Village"
+   }
+  }
+  coords 364.836 0 134.973
+ }
+ Town_Name2 {
+  components {
+   SCR_EditableCommentComponent "{64D2EC101A8C6AE5}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{64D2EC105978F28D}" {
+     Name "Medium Town"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{64D2EC102C7EB21F}" {
+    DisplayName "Medium Town"
+    MainType "Name Town"
+   }
+  }
+  coords 155.208 0 135.503
+ }
+}
